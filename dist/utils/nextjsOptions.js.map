@@ -1,0 +1,1 @@
+{"version":3,"file":"nextjsOptions.js","sourceRoot":"","sources":["../../src/utils/nextjsOptions.ts"],"names":[],"mappings":"","sourcesContent":["import { NodeOptions } from '@sentry/node';\r\nimport { BrowserOptions } from '@sentry/react';\r\nimport { Options } from '@sentry/types';\r\n\r\nexport type NextjsOptions = Options | BrowserOptions | NodeOptions;\r\n"]}
